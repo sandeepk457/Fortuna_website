@@ -70,9 +70,12 @@
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 body {
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: var(#005F99);
+  background-color: var(#C8102E);
   font-family: var(--default-font);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  animation: pulseColor 3s infinite alternate;
 }
 
 a {
@@ -2629,3 +2632,6 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+
