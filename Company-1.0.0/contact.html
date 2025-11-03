@@ -163,17 +163,13 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
               </div>
-              
-             <!-- Hidden Fields -->
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_subject" value="New Message from Fortuna Contact Form">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_next" value="https://fortunaglobalsupplychain.com/thank-you.html">
-
-  <div class="text-center mt-4">
-    <button type="submit" style="background-color:#C8102E; color:white; border:none; padding:10px 25px; border-radius:8px; transition:0.3s;">Send Message</button>
-  </div>
-</form>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <!--div class="error-message"></div>-->
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
           </div><!-- End Contact Form -->
 
         </div>
