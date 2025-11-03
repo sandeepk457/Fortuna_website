@@ -170,13 +170,15 @@
     <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
   </div>
 
-  <!-- Hidden Fields -->
+  <!-- 🔒 Hidden Fields (place here inside the form, before the submit button) -->
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_subject" value="New Message from Fortuna Contact Form">
   <input type="hidden" name="_template" value="table">
+
+  <!-- 👇 Here is your redirect link after successful submission -->
   <input type="hidden" name="_next" value="https://fortunaglobalsupplychain.com/thank-you.html">
 
-  <div class="text-center">
+  <div class="text-center mt-4">
     <button type="submit" 
             style="background: linear-gradient(135deg, #b30000, #ff3333); 
                    color:white; border:none; padding:12px 32px; 
